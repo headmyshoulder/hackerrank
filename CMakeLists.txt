@@ -18,13 +18,12 @@ set( CMAKE_MODULE_PATH
   ${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules
   )
 
-if ( CMAKE_COMPILER_IS_GNUCXX )
-    set ( CMAKE_CXX_FLAGS "-std=c++11" )        ## Optimize
-endif ()
+set ( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14" )
 
-# add_executable ( gem_stones gem_stones.cpp )
-# add_executable ( insertion_sort_analysis insertion_sort_analysis.cpp )
-# add_executable ( two-arrays two-arrays.cpp )
+
+add_executable ( gem_stones gem_stones.cpp )
+add_executable ( insertion_sort_analysis insertion_sort_analysis.cpp )
+add_executable ( two-arrays two-arrays.cpp )
 add_executable ( priyanka-and-toys priyanka-and-toys.cpp )
-
+add_executable ( find-median find-median.cpp )
 
