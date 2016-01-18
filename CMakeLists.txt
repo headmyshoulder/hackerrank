@@ -26,4 +26,5 @@ add_executable ( insertion_sort_analysis insertion_sort_analysis.cpp )
 add_executable ( two-arrays two-arrays.cpp )
 add_executable ( priyanka-and-toys priyanka-and-toys.cpp )
 add_executable ( find-median find-median.cpp )
+add_executable ( balanced-parentheses balanced-parentheses.cpp )
 
